@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>關於森林工房</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+
+	<style>
+		body {
+			font-family: 'MingLiu', 'Heiti TC', sans-serif
+		}
+		
+		a {
+			color: #017acd
+		}
+		/* 定位框 */
+		
+		div#container {
+			width: 900px;
+			margin-left: auto;
+			margin-right: auto
+		}
+		/* 檔頭 */
+		
+		header#pageheader {
+			background: none;
+			padding: 15px 0 0
+		}
+		
+		header#pageheader h1 {
+			margin: 0;
+			float: left;
+			font-size: 40px;
+			font-weight: normal;
+			font-family: 'Righteous', cursive
+		}
+		
+		header#pageheader h2 {
+			color: #666666;
+			font-size: 0.75em;
+			margin: 0;
+			padding-top: 20px;
+			text-align: right;
+			font-weight: normal
+		}
+		
+		nav {
+			clear: both
+		}
+		/* 選單 */
+		
+		nav ul {
+			font-size: 0.75em;
+			margin-top: 0;
+			margin-bottom: 10px;
+			margin-left: 0;
+			padding-left: 0;
+			height: 30px;
+			background-color: #005087;
+			border-radius: 5px;
+			background: -webkit-linear-gradient(#777777 0%, #444444 50%, #333333 51%, #555555 100%);
+
+		}
+		
+		nav ul li {
+			list-style-type: none;
+			float: left
+		}
+		
+		nav ul li a {
+			display: block;
+			width: 120px;
+			line-height: 30px;
+			text-decoration: none;
+			text-align: center;
+			color: #ffffff;
+			/*background-color: #005087;*/
+			border-right: solid 1px #ffffff
+		}
+		
+		nav ul li a:hover {
+			background-color: #017acd
+		}
+		
+		nav ul li:first-of-type a:hover {
+			border-radius: 5px 0 0 5px;
+		}
+		/* 內容 */
+		
+		article {
+			width: auto;
+			margin-left: auto;
+			margin-right: auto
+		}
+		
+		article header {
+			border: solid 1px #aaaaaa;
+			margin: 20px 0 10px;
+			padding: 18px;
+			border-radius: 5px;
+			box-shadow: 0 2px 3px #cccccc;
+
+		}
+		
+		article header h1 {
+			background: none;
+			font-size: 28px;
+			color: #000000;
+			line-height: 45px;
+			padding-left: 0;
+			/*margin-bottom: 0;*/
+			margin: 0;
+			font-weight: normal;
+			float: left;
+		}
+		
+		article header p {
+			font-size: 16px;
+			color: #444444;
+			margin-left: 300px;
+		}
+		
+		article section {
+			clear: both;
+			border: solid 1px #aaaaaa;
+			margin: 20px 0 10px;
+			padding: 18px;
+			border-radius: 5px;
+			overflow: hidden;
+			background: -webkit-gradient(linear,left top, left bottom, from(#ffffff), to(#dfdfdf));
+			background: -webkit-linear-gradient(#ffffff 0%, #dfdfdf 100%);
+			background: -moz-linear-gradient(#ffffff 0%, #dfdfdf 100%);
+			background: -o-linear-gradient(#ffffff 0%, #dfdfdf 100%);
+			background: -ms-linear-gradient(#ffffff 0%, #dfdfdf 100%);
+			box-shadow: 0px 2px 3px #cccccc,
+						0px 0px 4px 3px #ffffff inset;
+		}
+		
+		article section h1 {
+			background: none;
+			font-size: 24px;
+			font-weight: normal;
+			line-height: 22px;
+			padding-left: 0;
+			margin-top: 0;
+			margin-bottom: 20px;
+			margin-left: 0;
+			margin-right: 0;
+		}
+		
+		article p {
+			font-size: 0.75em;
+			line-height: 1.6;
+			margin-top: 10px;
+			margin-left: 0;
+			margin-right: 0;
+		}
+		/* 檔尾 */
+		
+		footer {
+			color: #ffffff;
+			background-color: #005087;
+			margin-top: 25px;
+			padding-top: 8px;
+			padding-bottom: 8px;
+			clear: both
+		}
+		
+		small {
+			font-size: 0.75em;
+			font-style: normal;
+			text-align: center;
+			display: block
+		}
+		/* 圖像配置 */
+		
+		figure {
+			margin: 0
+		}
+		
+		article section:nth-of-type(odd) figure {
+			float: right;
+			margin-left: 15px;
+			margin-bottom: 0
+		}
+		
+		article section:nth-of-type(even) figure {
+			float: left;
+			margin-right: 15px;
+			margin-bottom: 0
+		}
+		
+		article section figcaption {
+			color: #666666;
+			font-size: 10px;
+			display: block
+		}
+		
+		article section:nth-of-type(odd) figcaption {
+			text-align: right
+		}
+	</style>
+
+
+	<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+<style>
+article section figure	{float: right;
+	margin-left: 15px;
+	margin-bottom: 15px}
+</style>
+<![endif]-->
+</head>
+
+<body>
+
+	<!-- 定位框 -->
+	<div id="container">
+
+		<!-- 檔頭 -->
+		<header id="pageheader">
+			<hgroup>
+				<h1>Green Leaf</h1>
+				<h2>更加貼近享受生活的資訊</h2>
+			</hgroup>
+
+			<!-- 選單 -->
+			<nav>
+				<ul>
+					<li><a href="index.html">首頁</a></li>
+					<li><a href="about.html">關於森林工房</a></li>
+					<li><a href="event.html">季節活動</a></li>
+					<li><a href="contact.html">洽詢</a></li>
+					<li><a href="http://blog.xxx.xxx/">部落格</a></li>
+				</ul>
+			</nav>
+
+			<img src="header.jpg" alt="">
+		</header>
+
+		<!-- 內容 -->
+		<article itemscope itemtype="http://schema.org/Article">
+			<header id="postheader">
+				<h1 itemprop="name">關於森林工房</h1>
+
+				<p id="summary" itemprop="description">Forest Studio經營位於大自然中的「森林工房」。森林工房全年四季都有活動舉辦，並進行各種商品的開發。</p>
+			</header>
+
+			<div itemprop="articleBody">
+				<section>
+					<h1>森林裡的工房</h1>
+
+					<figure><img src="photo01.jpg" alt="森林中的樣子" width="250" height="165">
+						<figcaption>通往工房的森林小徑</figcaption>
+					</figure>
+					<p>森林工房位於樹林茂密的森林中。請從森林入口經由小徑進入森林深處。走一小段路後，就會看到森林中的小山丘。山丘上的木造建築就是「森林工房」。</p>
+
+					<p>山丘正好位於森林的中央，不管是森林漫步，或是徜徉大自然，這裡都是個絕佳的據點。這裡不僅可以眺望整片森林，更能夠觀賞到佈滿星斗的夜空。</p>
+				</section>
+
+				<section>
+					<h1>四季都可以盡情暢遊的地方</h1>
+
+					<figure><img src="photo02.jpg" alt="冬天的風景" width="250" height="165">
+						<figcaption>隨季節轉變的景色</figcaption>
+					</figure>
+					<p>森林工房可以享受到春、夏、秋、冬四種季節的自然美景。<br /> 春天，遍地都是從融化的雪中冒出的新綠新芽。夏天，吹拂於樹林間的涼爽微風令人感到舒適清爽，還有清澈河水可供戲水。秋天，整座森林像是染上紅色和黃色等繽紛色彩一般，到處環繞著鮮豔的紅葉。到了樹葉凋零的冬天，這裡就成了大地被白雪覆蓋的銀色世界。
+					</p>
+				</section>
+
+				<section>
+					<h1>工房周邊的動物們</h1>
+
+					<figure><img src="photo03.jpg" alt="狐" width="250" height="165" itemprop="image">
+						<figcaption>出現在工房附近的狐</figcaption>
+					</figure>
+					<p>工房周邊有各種動物棲息。狐、狸、鼬鼠、兔子、松鼠、鹿、野豬…。有時可以在森林裡看到，有時則會偷偷出現在工房。從泥土或雪上的殘留足跡尋找動物的蹤影，也是另一種樂趣。</p>
+
+					<p>可是，森林工房並不會對野生動物進行餵食。因為我們希望可以和他們一起以自然應有的姿態共同生活。遇見他們的時候，請在遠處觀看，不要嚇壞他們。</p>
+				</section>
+			</div>
+
+		</article>
+
+		<!-- 檔尾 -->
+		<footer>
+			<small>Copyright (C) Green Leaf, All rights reserved.</small>
+		</footer>
+
+	</div>
+
+</body>
+
+</html>
